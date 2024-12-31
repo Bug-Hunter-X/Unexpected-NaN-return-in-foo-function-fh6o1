@@ -1,0 +1,1 @@
+function foo(a,b){    if (a == 1){        return b;    }else{        return a+b;    }}console.log(foo(1,2)); //output:2console.log(foo(2,1)); //output:3console.log(foo(1,undefined));//output:undefinedconsole.log(foo(undefined,1));//output:NaN
